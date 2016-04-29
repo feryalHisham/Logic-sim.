@@ -3,6 +3,7 @@
 
 AddNAND2::AddNAND2(ApplicationManager *pApp) :Action(pApp)
 {
+	//testing hal el ta3deel byban wala l2 :D feryal
 }
 
 AddNAND2::~AddNAND2(void)
