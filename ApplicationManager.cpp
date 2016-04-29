@@ -48,6 +48,55 @@ void ApplicationManager::ExecuteAction(ActionType ActType)
 			pAct= new AddAND2(this);
 			break;
 
+		case ADD_AND_GATE_3:
+			pAct = new AddAND3(this);
+			break;
+
+		case ADD_Buff:
+			pAct = new AddBuffer(this);
+			break;
+
+		case ADD_NOR_GATE_2:
+			pAct = new AddNOR2(this);
+			break;
+
+		case ADD_OR_GATE_2:
+			pAct = new AddOR2(this);
+			break;
+
+
+		case ADD_NOR_GATE_3:
+			pAct = new AddNOR3(this);
+			break;
+
+
+		case ADD_XNOR_GATE_2:
+			pAct = new AddXNOR2(this);
+			break;
+
+		case ADD_XOR_GATE_2:
+			pAct = new AddXOR2(this);
+			break;
+
+		case ADD_XOR_GATE_3:
+			pAct = new AddXOR3(this);
+			break;
+
+		case ADD_NAND_GATE_2:
+			//pAct = new AddNAND2(this);
+			break;
+
+		case ADD_LED:
+			pAct = new AddLED(this);
+			break;
+
+		case ADD_INV:
+			pAct = new AddNOT(this);
+			break;
+		case ADD_Switch:
+			pAct = new AddSWITCH(this);
+			break;
+
 		case ADD_CONNECTION:
 			//TODO: Create AddConection Action here
 			break;
